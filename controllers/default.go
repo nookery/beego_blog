@@ -13,5 +13,5 @@ func (c *MainController) Get() {
 	c.Data["email"] = "a@nooks.cn"
 	c.Data["isHome"] = true
 	c.Data["isLogin"] = checkAccout(c.Ctx)
-	c.TplNames = "index.tpl"
+	c.TplNames = "index.html"
 }
